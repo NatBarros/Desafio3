@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+  header {
+    background-color:#129799;
+    height: 50vh;
+  }
+
+  .topo {
+    display: flex;
+    justify-content: center;
+    word-spacing: 10vh;
+    padding-top: 5vh;
+  }
+
+  a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: darkgreen;
+  }
+
+  .frase {
+    padding-top: 4%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    padding-right: 1%;
+    font-size: 250%;
+  }
+
+  .life {
+    width: 30%;
+    height: 15%;
+  }
+
+  .baixo {
+    display: flex;
+    justify-content:center;
+    justify-content: space-evenly;
+    padding: 4% 25% 0 25%;
+  }
+
+  main {
+    background-color: #FFA185;
+  }
+
+  h2 {
+    padding: 4% 0 0 2%;
+    color: white;
+  }
+
+  h3 {
+    padding: 2% 0 0 2%;
+  }
+
+  .fotoscima {
+    padding-top: 6%;
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .fotosbaixo {
+    padding-top: 1%;
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .veja {
+    color:black;
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .vejamais {
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    background-color:#129799;
+    height: 20vh;
+  }
+
+  .rodape {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+  }
+
+  .imglogo {
+    height: 5vh;
+    margin-left: 30px;
+    transition: 0.2s; 
+  }
+
+  .logos {
+   padding-left: 4%;
+  }
+
+  .info {
+    padding-right: 5%;
+    word-spacing: 10vh;
+  }
+
+  .imglogo:hover {
+    transform: scale(1.3); 
+  }
